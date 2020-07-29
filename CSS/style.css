@@ -1,0 +1,89 @@
+.page-box {
+    width: 100%;
+    height: 100vh;
+}
+
+/* ここからヘッダーナビ */
+.nav-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: yellow;
+
+    /* トップ以降に固定表示 */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: yellow;
+    z-index: 1;
+    
+}
+/* ナビ：左側 */
+.nav-left-box {
+    display: flex;
+    align-items: center;
+    margin: 1% 0% 1% 3%;
+}
+
+.nav-logo-box {
+    width: 48px;
+    height: auto;
+}
+
+.nav-logo {
+    width: 100%;
+    height: auto;
+}
+
+.nav-logoName-box {
+    height: auto;
+    margin-left: 3%;
+}
+
+.nav-logoName1 {
+    margin: 1%;
+    padding: 0;
+    font-weight: bolder;
+    
+}
+
+.nav-logoName2 {
+    margin: 1%;
+    padding: 0;
+    font-weight: bold;
+    
+}
+
+/* ナビ：右側 */
+.nav-right-box {
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+.nav-container-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-items {
+    margin: 0;
+    padding: 0;
+    border: none; 
+    outline: none; 
+    background: transparent; 
+    text-align: center;
+    font-weight: bold;
+    font-size: calc(65% + 0.25vw);
+    margin: 0% 3% 0% 3%;
+}
+
+/* ここまでヘッダーナビ */
+
+
