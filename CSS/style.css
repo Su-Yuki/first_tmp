@@ -370,6 +370,8 @@
     width: 100%;
     height: 100vh;
     background-color: white;
+    position: relative;
+    top: 20vh;
 }
 
 .service {
@@ -461,3 +463,232 @@
     font-size: calc(65% + 0.25vw);
 }
 /* ここまでサービス画面  */
+
+
+/* ここからワーク画面  */
+.works-box {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.works {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.works-title-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* background-color: white; */
+}
+
+.works-title {
+    text-align: center;
+    position: relative;
+    margin: 0%;
+    padding: 0;
+    font-size: calc(240% + 0.25vw);
+}
+
+.works-kind-box {
+    width: 80%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 10% 3% 10%;
+}
+
+.works-kind {
+    width: 30%;
+    margin: 1%;
+    padding: 5%;
+}
+
+.works-kind-name-box {
+    width: 100%;
+    height: auto;
+    margin: 3%;
+}
+
+.works-kind-name {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.works-kind-detile-box {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: black;
+}
+
+.works-kind-detile {
+    width: 100%;
+    height: auto;
+
+}
+
+.works-kind-detile-img {
+    width: 100%;
+    height: auto;
+}
+
+.works-more-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10% 0 10%;
+    
+}
+
+.works-more {
+    width: 30%;
+    text-align: center;
+    border: solid;
+    padding: 0 10% 0 10%;
+    font-size: calc(65% + 0.25vw);
+}
+
+/* ここまでワーク画面  */
+
+
+/* ここからアバウト画面  */
+.about-box {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+
+.about {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-title-box {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.about-title {
+    text-align: center;
+    position: relative;
+    margin: 0%;
+    padding: 0;
+    font-size: calc(240% + 0.25vw);
+}
+
+.about-sub-title {
+    text-align: center;
+    position: relative;
+    margin: 0%;
+    padding: 0;
+    font-size: calc(80% + 0.25vw);
+
+}
+
+.about-kind-box {
+    width: 100%;
+    height: auto;
+}
+
+.about-kind {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5vh;
+}
+
+.about-kind-logo-box {
+    width: 40%;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 100px;
+}
+
+.about-kind-logo {
+    width: 160px;
+    height: auto;
+
+}
+
+.about-kind-img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.about-kind-detile-box {
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-kind-name-box {
+    width: 100%;
+    height: auto;
+}
+
+.about-kind-name {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+
+.about-kind-detile-name {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+
+.about-kind-skill-box {
+    width: 100%;
+    height: auto;
+}
+
+.about-kind-skill {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+
+.about-kind-detile-slill {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+
+.about-kind-mail-box {
+    width: 100%;
+    height: auto;
+}
+
+.about-kind-mail {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+
+.about-kind-detile-maile {
+    font-size: calc(100% + 0.25vw);
+    font-weight: normal;
+}
+/* ここまでアバウト画面  */
