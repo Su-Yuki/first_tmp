@@ -692,3 +692,145 @@
     font-weight: normal;
 }
 /* ここまでアバウト画面  */
+
+/* ここからコンタクト画面 */
+.contact-box {
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    /* border: solid; */
+}
+
+
+.contact-title-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: calc(240% + 0.25vw);
+}
+
+.contact-info-box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 3%;
+}
+
+.contact-ditaile-box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.contact-detaile-kind-box {
+    width: auto;
+
+}
+
+.contact-detaile-kind {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3vh;
+}
+
+.contact-ditaile-left {
+    width: 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.contact-ditaile-left-box {
+
+}
+
+.contact-ditaile-right {
+    width: 40vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: start;
+
+}
+
+.contact-ditaile-right-box {
+
+}
+
+.inputs{
+    float: left;
+    width:300px;
+}
+
+input[type="text"],input[type="email"]{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding:10px;
+    font-size: 15px;
+}
+
+textarea{
+    border: solid 1px #aaa;
+    border-radius:5px;
+    padding: 10px;
+    height: 160px;
+    font-size: 15px;
+}
+
+.btn-area{
+    /* text-align: center; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type="submit"]{
+    background: #e0505c;
+    border: none;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+input[type="reset"]{
+    background: #aaa;
+    border: none;
+    color: white;
+    font-size:17px;
+    font-weight:bold;
+    padding: 10px 20px;
+    margin: 0 5px;
+}
+
+/* ここまでコンタクト画面 */
+
+/* ここからフッター画面 */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    font-size: 18px;
+}
+
+.footter-text s{
+    color: black;
+    font-size: calc(45% + 0.25vw);
+    font-weight: inherit;
+    margin: none;
+    padding: none;
+}
+
+/* ここまでフッター画面 */
