@@ -54,10 +54,7 @@
 /* ここまでローディング画面 */
 
 
-.page-box {
-    width: 100%;
-    height: a;
-}
+
 
 
 /* ここからヘッダーナビ */
@@ -142,6 +139,9 @@
 }
 
 /* ここまでヘッダーナビ */
+
+
+
 
 
 /*  ここから見出し画面  */
@@ -366,6 +366,9 @@
 /*  ここまで見出し画面  */
 
 
+
+
+
 /* ここからサービス画面  */
 .service-box {
     width: 100vw;
@@ -406,6 +409,15 @@
     align-items: center;
     justify-content: center;
     margin: 3% 10% 3% 10%;
+}
+@media screen and (max-width:720px){
+    .service-kind-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 .service-kind {
@@ -464,6 +476,9 @@
 /* ここまでサービス画面  */
 
 
+
+
+
 /* ここからワーク画面  */
 .works-box {
     width: 100%;
@@ -504,6 +519,15 @@
     align-items: center;
     justify-content: center;
     margin: 3% 10% 3% 10%;
+}
+@media screen and (max-width:720px){
+    .works-kind-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 .works-kind {
@@ -568,6 +592,9 @@
 /* ここまでワーク画面  */
 
 
+
+
+
 /* ここからアバウト画面  */
 .about-box {
     width: 100%;
@@ -612,6 +639,15 @@
     width: 100%;
     height: auto;
 }
+@media screen and (max-width:720px){
+    .about-kind-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
 
 .about-kind {
     width: 100%;
@@ -620,6 +656,15 @@
     justify-content: space-between;
     margin-top: 5vh;
 }
+@media screen and (max-width:720px){
+    .about-kind {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+}
 
 .about-kind-logo-box {
     width: 40%;
@@ -627,6 +672,14 @@
     display: flex;
     justify-content: flex-end;
     margin-right: 100px;
+}
+@media screen and (max-width:720px){
+    .about-kind-logo-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
 }
 
 .about-kind-logo {
@@ -647,10 +700,28 @@
     display: flex;
     flex-direction: column;
 }
+@media screen and (max-width:720px){
+    .about-kind-detile-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+}
 
 .about-kind-name-box {
     width: 100%;
     height: auto;
+}
+@media screen and (max-width:720px){
+    .about-kind-name-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 .about-kind-name {
@@ -667,6 +738,16 @@
     width: 100%;
     height: auto;
 }
+@media screen and (max-width:720px){
+    .about-kind-skill-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 
 .about-kind-skill {
     font-size: calc(100% + 0.25vw);
@@ -682,6 +763,16 @@
     width: 100%;
     height: auto;
 }
+@media screen and (max-width:720px){
+    .about-kind-mail-box {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+}
 
 .about-kind-mail {
     font-size: calc(100% + 0.25vw);
@@ -693,6 +784,9 @@
     font-weight: normal;
 }
 /* ここまでアバウト画面  */
+
+
+
 
 /* ここからコンタクト画面 */
 .contact-box {
@@ -734,7 +828,7 @@
 }
 
 .contact-ditaile-box {
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -835,6 +929,9 @@ input[type="reset"]{
 }
 
 /* ここまでコンタクト画面 */
+
+
+
 
 /* ここからフッター画面 */
 
